@@ -1,4 +1,7 @@
-function invertir (cad) {
+function invertir () {
+	let cad = document.getElementById("Cad").value;
+	console.log(cad);
+
 	let invertido = "";
 
 	for (let i = cad.length - 1; i >= 0; i--) {
@@ -8,4 +11,4 @@ function invertir (cad) {
 	return invertido;
 }
 
-console.log(invertir("Hola"));
+//console.log(invertir());
