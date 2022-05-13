@@ -8,4 +8,4 @@ function invertir (cad) {
 	return invertido;
 }
 
-
+console.log(invertir("Hola"));
