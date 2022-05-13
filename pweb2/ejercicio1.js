@@ -15,3 +15,10 @@ function new_Date(d)  {
 		return "Sábado";
 	}
 }
+
+console.log(new_Date(0));
+console.log(new_Date(1));
+console.log(new_Date(2));
+console.log(new_Date(3));
+console.log(new_Date(4));
+console.log(new_Date(5));
