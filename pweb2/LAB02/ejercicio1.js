@@ -1,7 +1,10 @@
 const fecha = new Date();
-const hoy = fecha.getDate();
+const dia = fecha.getDate();
 
-console.log(hoy);
+// Cálculo de "d"
+let d = (dia % 7) - 1;
+
+console.log(d);
 
 function new_Date(d)  {
 	if (d == 0) {
