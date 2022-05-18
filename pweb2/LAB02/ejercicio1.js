@@ -1,11 +1,14 @@
+// Obtener fecha (día) actual
 const fecha = new Date();
 const dia = fecha.getDate();
 
 // Cálculo de "d"
 let d = (dia % 7) - 1;
 
-console.log(d);
+// Llamada de función
+console.log(new_Date(d));
 
+// Función de cálculo
 function new_Date(d)  {
 	if (d == 0) {
 		return "Domingo";
@@ -24,9 +27,3 @@ function new_Date(d)  {
 	}
 }
 
-console.log(new_Date(0));
-console.log(new_Date(1));
-console.log(new_Date(2));
-console.log(new_Date(3));
-console.log(new_Date(4));
-console.log(new_Date(5));
