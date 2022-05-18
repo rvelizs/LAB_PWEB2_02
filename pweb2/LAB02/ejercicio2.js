@@ -1,5 +1,5 @@
-function invertir() {
-	let cad = document.getElementById("Cad").value;
+function invertir(){
+	let cad = document.getElementById("cad").value;
 	let invertido = "";
 
 	for (let i = cad.length - 1; i >= 0; i--) {
