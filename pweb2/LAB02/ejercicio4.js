@@ -1,12 +1,18 @@
-let url = "https://meet.google.com/khp-pozo-vos";
+function quitarG(){
 
-// Usando substring
-let newUrl1 = url.substring(0, 27);
-let parte2 = url.substring(28, 32);
-let parte3 = url.substring(33)
+	// Texto
+	let url = document.getElementById("url").value;
 
+	// Usando substring
+	let parte1 = url.substring(0, 27);
+	let parte2 = url.substring(28, 32);
+	let parte3 = url.substring(33);
 
-// Usando replace
-let newUrl2 = url.replace(/-/g, " ");
+	let resultado1 = parte1 + " " + parte2 + " " + parte3;
 
-console.log(newUrl1 + parte2 + parte3);
+	// Usando replace
+	let reusltado2 = url.replace(/-/g, " ");
+
+	document.getElementById("sinG1").innerHTML = "La nueva cadena de URL es : " + resultado1;
+	document.getElementById("sinG2").innerHTML = "La nueva cadena de URL es : " + reusltado2;
+}
