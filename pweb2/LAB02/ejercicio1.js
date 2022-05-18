@@ -6,7 +6,7 @@ const dia = fecha.getDate();
 let d = (dia % 7) - 1;
 
 // Llamada de función
-console.log(new_Date(d));
+console.log("Número de día: ", d, " (", new_Date(d), ")");
 
 // Función de cálculo
 function new_Date(d)  {
