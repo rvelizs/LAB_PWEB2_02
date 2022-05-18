@@ -12,10 +12,12 @@ function calcDiasAqp(){
 	var porHor = porMin * 60; // 60 minutos (1 hora)
 	var porD = porHor * 24; // 24 horas (1 día) -> porD es el número de milisegundos en un día
 	
+	// Cálculo del número de días hasta AQP y ACTUAL, respectivamente
 	let diasAqp = Math.round(dAqp.getTime() / porD);
 	let diasAct = Math.round(hoy.getTime() / porD);
 
+	// Cálculo de días faltantes
 	var numDiasAqp = diasAqp - diasAct;
 
-	document.getElementById("nDias").innerHTML = "Faltan " + numDiasAqp + " días";
+	document.getElementById("nDias").innerHTML = "Faltan " + numDiasAqp + " días"; // evento
 }
