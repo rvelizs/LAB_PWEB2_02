@@ -1,3 +1,8 @@
+const fecha = new Date();
+const hoy = fecha.getDate();
+
+console.log(hoy);
+
 function new_Date(d)  {
 	if (d == 0) {
 		return "Domingo";
