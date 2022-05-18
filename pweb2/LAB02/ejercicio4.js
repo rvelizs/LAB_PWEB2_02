@@ -15,6 +15,6 @@ function quitarG(){
 	let sinGuiones = url2.replace(/-/g, " ");
 	let resultado2 = sinGuiones.substring(24);
 
-	document.getElementById("sinG1").innerHTML = "La nueva cadena de URL es : " + resultado1;
-	document.getElementById("sinG2").innerHTML = "La nueva cadena de URL es : " + reusltado2;
+	document.getElementById("sinG1").innerHTML = "La nueva cadena de URL (1) es : " + resultado1;
+	document.getElementById("sinG2").innerHTML = "La nueva cadena de URL (2) es : " + resultado2;
 }
