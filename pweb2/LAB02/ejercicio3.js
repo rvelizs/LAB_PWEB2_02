@@ -13,5 +13,5 @@ var porD = porHor * 24; // 24 horas (1 día) -> porD es el número de milisegund
 let diasAqp = Math.round(dAqp.getTime() / porD);
 let diasAct = Math.round(hoy.getTime() / porD);
 
-console.log(diasAqp, "+", diasAct);
+console.log("Faltan " + (diasAqp - diasAct) + "días");
 
