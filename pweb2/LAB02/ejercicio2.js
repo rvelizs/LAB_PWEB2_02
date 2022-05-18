@@ -1,14 +1,10 @@
-function invertir () {
-	let cad = document.getElementById("Cad");
-	console.log(cad);
-
+function invertir() {
+	let cad = document.getElementById("Cad").value;
 	let invertido = "";
 
 	for (let i = cad.length - 1; i >= 0; i--) {
 		invertido = invertido + cad.charAt(i);
 	}
 
-	return invertido;
+	document.getElementById("nCad").innerHTML = invertido;
 }
-
-//console.log(invertir());
