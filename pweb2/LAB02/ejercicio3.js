@@ -17,5 +17,5 @@ function calcDiasAqp(){
 
 	var numDiasAqp = diasAqp - diasAct;
 
-	document.getElementById("nDias").innerHTML = "Faltan" + numDiasAqp + " días";
+	document.getElementById("nDias").innerHTML = "Faltan " + numDiasAqp + " días";
 }
